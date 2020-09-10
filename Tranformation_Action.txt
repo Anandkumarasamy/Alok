@@ -1,0 +1,18 @@
+Transformation:(methods)
+    1.union()-----rdd1.union(rdd2)
+    2.intersection()-----rdd1.intersection(rdd2)
+    3.subtract()-----rdd1.subtract(rdd2)
+    4.cartesian()----in two Rdd------car1_rdd=rdd1.cartesian(rdd2)
+    5.cartesian()----in three Rdd-------car2_rdd=car1_rdd.cartesian(rdd3)
+    6.map(lambda X : X+500)-----if we add 500 to all
+    7.flatmap
+    8.mappartition
+    9.filter(lambda X : X>15000)-------x is greater then 15000 
+    10.distinct()
+    11.
+
+
+Action:(methids)
+    1.collect()
+    2.count()
+    3.getNumPartitions()

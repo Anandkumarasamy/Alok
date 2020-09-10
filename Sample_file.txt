@@ -1,0 +1,14 @@
+High availale refers to a system’s ability to avoid loss of service by minimizing downtime. It’s expressed in terms of a system’s uptime, as a percentage of total running time. Five nines, or 99.999% uptime, is considered the “holy grail” of availability.
+
+In most cases, a business continuity strategy will include both high availability and fault tolerance to ensure your organization maintains essential functions during minor failures, and in the event of a disaster.
+
+While both fault tolerance and high availability refer to a system’s functionality over time, there are differences that highlight their individual importance in your business continuity planning.
+
+Consider the following analogy to better understand the difference between fault tolerance and high availability. A twin-engine airplane is a fault tolerant system – if one engine fails, the other one kicks in, allowing the plane to continue flying. Conversely, a car with a spare tire is highly available. A flat tire will cause the car to stop, but downtime is minimal because the tire can be easily replaced.
+
+Some important considerations when creating fault tolerant and high availability systems in an organizational setting include:
+
+High available system has a minimal allowed level of service interruption. For example, a system with “five nines” availability is down for approximately 5 minutes per year. A fault-tolerant system is expected to work continuously with no acceptable service interruption.
+Scope – High availability builds on a shared set of resources that are used jointly to manage failures and minimize downtime. Fault tolerance relies on power supply backups, as well as hardware or software that can detect failures and instantly switch to redundant components.
+Cost – A fault tolerant system can be costly, as it requires the continuous operation and maintenance of additional, redundant components. High availability typically comes as part of an overall package through a service provider (e.g., load balancer provider).
+Some of your systems may require a fault-tolerant design, while high availability might suffice for others. You should weigh each system’s tolerance to service interruptions, the cost of such interruptions, existing SLA agreements with service providers and customers, as well as the cost and complexity of implementing full fault tolerance.
